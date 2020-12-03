@@ -1,0 +1,57 @@
+*{
+	padding: 0px;
+}
+.recipes-tags{
+	display: block;
+	margin-top: 30px;
+    color: #f9b200;
+    padding: 12px 0 10px 0;
+    margin-bottom: 30px;
+}
+.recipes-tags .recipes-tag {
+ 
+    width: 150px;
+    max-width: 100%;
+}
+.recipes-tags .recipes-tag span {
+    display: block;
+    margin-bottom: 5px;
+}
+.container .row{
+	border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.recipeSpecialTag{
+	padding-top: 5px;
+}
+.content-element {
+    margin-top: 45px;
+    border-top: 0;
+    font: inherit;
+}
+
+
+.columnItem{
+	color: #795548;
+}
+.image > img, .image a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.content-element .row{
+	border-top: 0px solid #ccc;;
+}
+.content-element {
+    clear: both;
+}
+
+.columnItems .columnItem{
+	padding-top: 35px;
+} 
+.page-footer .container .row{
+	border-top: 0px solid #ccc;
+    border-bottom: 0px solid #ccc;
+}
