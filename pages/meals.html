@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinegar Food Restaurant</title>
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <!-- google fonts -->
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="../css/animate.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <nav>
+            <div id="logo">
+                <a href="../index.html"><img id="logo-image" src="../media/brand/chef-restaurant-logo-publicdomainvectors.svg"
+                        width="45" height="45" alt="Logo"></a>
+            </div>
+            <ul>
+                <!-- <li><a href="index.html">Home</a></li> -->
+                <li class="dropdown"><a href="pages/meals.html">Menu &nbsp;<i class="fa fa-caret-down"></i></a>
+                    <div class="dd">
+                        <div id="up_arrow"></div>
+                        <ul>
+                            <li><a href="../pages/meals.html">Regular</a></li>
+                            <li><a href="../pages/meals.html">Lunch</a></li>
+                            <li><a href="../pages/meals.html">Snacks</a></li>
+                            <li><a href="../pages/meals.html">Desert</a></li>
+                            <li><a href="../pages/meals.html">Beverages</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="../pages/gallery.html">Gallery</a></li>
+                <li><a href="../pages/awards.html">Awards</a></li>
+                <!-- <li><a href="pages/catering.html">Catering</a></li>
+                <li><a href="pages/recipe-of-the-month.html">Recipe of the month</a></li> -->
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="../pages/feedback.html">Feedback</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <div id="cover" class="carousel slide cover" data-ride="carousel">
+		    <ol class="carousel-indicators">
+		        <li data-target="#cover" data-slide-to="0" class="active"></li>
+		        <li data-target="#cover" data-slide-to="1"></li>
+		        <li data-target="#cover" data-slide-to="2"></li>
+		        <li data-target="#cover" data-slide-to="3"></li>
+		        <li data-target="#cover" data-slide-to="4"></li>
+		        <li data-target="#cover" data-slide-to="5"></li>
+		    </ol>
+		    <div class="carousel-inner">
+		        <div class="dark-overlay carousel-item active">
+		            <img sizes="(max-width: 2560px) 100vw, 2560px" src="../media/menu/food/pic/menu-banner.jpg" alt="First slide">
+		            <div class="carousel-caption">
+		                <h1 class="brand-title display-2 animated fadeInDown">MENU</h1>	                        
+		            </div>
+		        </div>
+		        <div class="dark-overlay carousel-item">
+				    <img sizes="(max-width: 2560px) 100vw, 2560px" src="../media/menu/food/pic/regular-banner.jpg" alt="Second slide">
+				    <div class="carousel-caption">
+					    <a href="#regular" class="smooth-scroll" target="_self">
+					      	<h1 class="brand-title display-2 animated fadeInDown">REGULAR</h1>
+					    </a>  
+				    </div>
+		        </div>
+		        <div class="dark-overlay carousel-item">    	
+			        <img sizes="(max-width: 2560px) 100vw, 2560px" src="../media/menu/food/pic/lunch-banner.jpg" alt="Third slide">
+			        <div class="carousel-caption">
+			            <a href="#lunch" class="smooth-scroll">
+			            	<h1 class="brand-title display-2 animated fadeInDown">LUNCH</h1>
+			            </a>
+			        </div>            
+		        </div>
+		        <div class="dark-overlay carousel-item">
+		            <img sizes="(max-width: 2560px) 100vw, 2560px" src="../media/menu/food/pic/snack-banner.jpg" alt="Fourth slide">
+		            <div class="carousel-caption">
+		            	<a href="#snacks" class="smooth-scroll">
+		                	<h1 class="brand-title display-2 animated fadeInDown">SNACKS</h1>
+		                </a>	                            
+		            </div>
+		        </div>
+		        <div class="dark-overlay carousel-item">
+		            <img sizes="(max-width: 2560px) 100vw, 2560px" src="../media/menu/food/pic/desert-banner.jpg" alt="Fifth slide">
+	                <div class="carousel-caption">
+	                	<a href="#desert" class="smooth-scroll">
+	                    	<h1 class="brand-title display-2 animated fadeInDown">DESERT</h1>
+	                    </a>
+	                </div>
+	            </div>
+	            <div class="dark-overlay carousel-item">
+	                <img sizes="(max-width: 2560px) 100vw, 2560px" src="../media/menu/food/pic/beverages-banner.jpg" alt="Fourth slide">
+	                <div class="carousel-caption">
+	                	<a href="#beverages" class="smooth-scroll">
+		            	    <h1 class="brand-title display-2 animated fadeInDown">BEVERAGES</h1>
+		            	</a>
+		            </div>
+		        </div>
+		        <a class="carousel-control-prev" href="#cover" role="button" data-slide="prev">
+		            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		            <span class="sr-only">Previous</span>
+		        </a>
+		        <a class="carousel-control-next" href="#cover" role="button" data-slide="next">
+		            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		            <span class="sr-only">Next</span>
+		        </a>
+		    </div>
+		</div>
+      <!-- FOOD: DESCRIPTIONS -->
+
+		<div class="food-descriptions container">
+        
+        <!-- REGULAR -->
+	        <div id="regular" class="food-category">
+	          <h2 class="banner">REGULAR</h2>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	                src="../media/menu/food/regular/burger.jpg"
+	                alt="Regular"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name">BURGER</span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Cheesy steak burger
+	              </p>
+	            </div>
+	          </div>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	                src="../media/menu/food/regular/pizza.jpg"
+	                alt="Regular"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name text-truncate">PIZZA</span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Buffalo Chicken Pizza Sticks
+	              </p>
+	            </div>
+	          </div>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	                src="../media/menu/food/regular/pasta.jpg"
+	                alt="Regular"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name">PASTA</span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Cheesy pasta.
+	              </p>
+	            </div>
+	          </div>
+	          <hr class="food-horizontal-rule">
+	        </div>
+
+	        <!-- LUNCH -->
+	        <div id="lunch" class="food-category">
+	          <h2 class="banner">LUNCH</h2>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	                src="../media/menu/food/lunch/t-bone steak.jpg"
+	                alt="Lunch"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name">T-BONE STEAK</span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
+	                at gravida lacus. Suspendisse laoreet ultrices ex, quis 
+	                efficitur justo rhoncus sit amet.
+	              </p>
+	            </div>
+	          </div>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	                src="../media/menu/food/lunch/egg salad.jpg"
+	                alt="Lunch"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name">EGG SALAD</span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
+	                at gravida lacus. Suspendisse laoreet ultrices ex, quis 
+	                efficitur justo rhoncus sit amet.
+	              </p>
+	            </div>
+	          </div>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	                src="../media/menu/food/lunch/grill fish.jpg"
+	                alt="Lunch"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name">GRILL FISH</span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
+	                at gravida lacus. Suspendisse laoreet ultrices ex, quis 
+	                efficitur justo rhoncus sit amet.
+	              </p>
+	            </div>
+	          </div>
+	          <hr class="food-horizontal-rule">
+	        </div>
+
+	        <!-- SNACKS -->
+	        <div id="snacks" class="food-category">
+	          <h2 class="banner">SNACKS</h2>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	                src="../media/menu/food/snack/cookie.jpg"
+	                alt="Snack"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name">COOKIE</span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
+	                at gravida lacus. Suspendisse laoreet ultrices ex, quis 
+	                efficitur justo rhoncus sit amet.
+	              </p>
+	            </div>
+	          </div>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	                src="../media/menu/food/snack/yogurt.jpg"
+	                alt="Snack"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name">YOGURT</span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
+	                at gravida lacus. Suspendisse laoreet ultrices ex, quis 
+	                efficitur justo rhoncus sit amet.
+	              </p>
+	            </div>
+	          </div>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	               src="../media/menu/food/snack/fruit.jpg"
+	                alt="Snack"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name">FRUIT</span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
+	                at gravida lacus. Suspendisse laoreet ultrices ex, quis 
+	                efficitur justo rhoncus sit amet.
+	              </p>
+	            </div>
+	          </div>
+	          <hr class="food-horizontal-rule">
+	        </div>
+
+	        <!-- DESERT -->
+	        <div id="desert" class="food-category">
+	          <h2 class="banner">DESERT</h2>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	                src="../media/menu/food/desert/ice cream.jpeg"
+	                alt="Desert"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name">ICE CREAM</span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
+	                at gravida lacus. Suspendisse laoreet ultrices ex, quis 
+	                efficitur justo rhoncus sit amet.
+	              </p>
+	            </div>
+	          </div>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	                src="../media/menu/food/desert/chocolate cake.jpg"
+	                alt="Desert"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name">CHOCOLATE CAKE</span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
+	                at gravida lacus. Suspendisse laoreet ultrices ex, quis 
+	                efficitur justo rhoncus sit amet.
+	              </p>
+	            </div>
+	          </div>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	                src="../media/menu/food/desert/pudding.jpg"
+	                alt="Desert"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name">PUDDING</span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
+	                at gravida lacus. Suspendisse laoreet ultrices ex, quis 
+	                efficitur justo rhoncus sit amet.
+	              </p>
+	            </div>
+	          </div>
+	          <hr class="food-horizontal-rule">
+	        </div>
+	        <!-- BEVERAGES -->
+	        <div id="beverages" class="food-category">
+	          <h2 class="banner">BEVERAGES</h2>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	                src="../media/menu/food/beverages/vodka.jpg"
+	                alt="Beverages"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name">VODKA</span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
+	                at gravida lacus. Suspendisse laoreet ultrices ex, quis 
+	                efficitur justo rhoncus sit amet.
+	              </p>
+	            </div>
+	          </div>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	                src="../media/menu/food/beverages/rum.jpg"
+	                alt="Beverages"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name">RUM</span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
+	                at gravida lacus. Suspendisse laoreet ultrices ex, quis 
+	                efficitur justo rhoncus sit amet.
+	              </p>
+	            </div>
+	          </div>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	                src="../media/menu/food/beverages/wine.png"
+	                alt="Beverages"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name">WINE</span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
+	                at gravida lacus. Suspendisse laoreet ultrices ex, quis 
+	                efficitur justo rhoncus sit amet.
+	              </p>
+	            </div>
+	          </div>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	                src = "../media/menu/food/drinks/coffee.jpg"
+	                alt="drinks"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name">COFFEE </span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
+	                at gravida lacus. Suspendisse laoreet ultrices ex, quis 
+	                efficitur justo rhoncus sit amet.
+	              </p>
+	            </div>
+	          </div>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	                src ="../media/menu/food/drinks/tea.jpg"
+	                alt="drinks"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name">TEA</span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
+	                at gravida lacus. Suspendisse laoreet ultrices ex, quis 
+	                efficitur justo rhoncus sit amet.
+	              </p>
+	            </div>
+	          </div>
+	          <hr class="food-horizontal-rule">
+	          <div class="row align-items-center menu-item">
+	            <div class="col-md-3 food-image">
+	              <img 
+	                src ="../media/menu/food/drinks/orange juice.jpg"
+	                alt="drinks"
+	                class="rounded-circle lazyload">
+	            </div>
+	            <div class="col-md-9">
+	              <h3 class="food-title">
+	                <span class="food-name">ORANGE JUICE</span>
+	                <span class="food-price float-right">$5.<sup>95</sup></span>
+	              </h3>
+	              <p class="food-ingredients">
+	                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
+	                at gravida lacus. Suspendisse laoreet ultrices ex, quis 
+	                efficitur justo rhoncus sit amet.
+	              </p>
+	            </div>
+	          </div>
+	        </div>
+	        <hr class="food-horizontal-rule py-3">
+	      </div>
+
+        
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5 class="page-footer-title">OPENING HOURS</h5>
+                    <p class="mb-0">Open daily from 8am</p>
+                    <p class="mb-0">Bar: Daily from 8am - 12pm</p>
+                    <p class="mb-0">Breakfast: Daily from 8am - 11am</p>
+                    <p class="mb-0">Lunch: Daily from 12pm - 3pm</p>
+                    <p>Dinner: Daily from 6pm - 12pm</p>
+                </div>
+                <div class="col-md-3 h-100 border-left-custom">
+                    <h5 class="page-footer-title mt-3 mt-md-0">LOCATION</h5>
+                    <address>
+                        Vinegar Food Restaurant<br>
+                        8 Ton That thuyet St.<br>
+                        My Dinh, Tu Liem, Ha Noi <br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                        <abbr title="Email">E:</abbr> dungphamdev@gmail.com
+                    </address>
+                </div>
+                <div class="col-md-3 h-100 border-left-custom">
+                    <h5 class="page-footer-title mt-3 mt-md-0">FOLLOW US</h5>
+                    <div class="mb-3">
+                        <a class="footer-social" href="#" aria-label="facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="footer-social" href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                        <a class="footer-social" href="#" aria-label="mail"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 h-100 border-left-custom">
+                    <h5 class="page-footer-title mt-3 mt-md-0">NEWSLETTER</h5>
+                    <p>
+                        Complete the form to receive information on the latest events,
+                        news and special offers at Vinegar Food Restaurant.
+                    </p>
+                    <form id="newsletter-form">
+                        <label class="sr-only" for="formEmail">Email</label>
+                        <input type="email" class="form-control form-control-sm rounded" id="formEmail"
+                            placeholder="name@example.com">
+                        <button type="submit" class="btn btn-sm btn-outline-light btn-block mt-2">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="page-footer-copyright container-fluid text-center">
+            © 2020 Vinegar Food Restaurant. All rights reserved.<br>
+        </div>
+    </footer>
+
+    <a id="back-to-top" class="back-to-top smooth-scroll" href="#top">
+        <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+    </a>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/meals.js" type="text/javascript"></script>
+</body>
+
+</html>
