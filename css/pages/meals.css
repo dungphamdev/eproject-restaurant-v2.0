@@ -1,0 +1,57 @@
+/*
+ * FOOD MENU
+ */
+
+.food-category {
+  padding-top: 8rem;
+}
+
+.food-category h2 {
+  margin-bottom: 2.8rem;
+}
+
+.menu-item {
+  padding: 2.8rem 0;
+}
+
+.food-image {
+  margin-bottom: 2.8rem;
+  text-align: center;
+}
+
+.food-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.food-title:before {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  right: 20px;
+  height: 1px;
+  border-top: 2px dotted rgba(0, 0, 0, 1);
+  display: block;
+  content: '';
+}
+
+.food-name {
+  position: relative;
+  padding-right: 15px;
+  background: #fff;
+}
+
+.food-price {
+  position: relative;
+  padding-left: 15px;
+  background: #fff;
+}
+
+.food-ingredients {
+  margin-bottom: 0;
+}
+
+.food-horizontal-rule {
+  margin: 0;
+}

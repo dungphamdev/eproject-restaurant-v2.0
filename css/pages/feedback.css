@@ -1,0 +1,54 @@
+/* 
+ * FEEDBACK
+ */
+
+.feedback-description {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  max-width: 40em;
+}
+
+.feedback-form {
+  overflow: hidden;
+  position: relative;
+  background-color: #001F40;
+}
+
+.feedback-form-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.feedback-form>form {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  max-width: 50em;
+  margin-top: 0;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.feedback-form ::placeholder {
+  color: #d9d9d9 !important;
+}
+
+.feedback-form form {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+.feedback-form label {
+  color: white;
+}
+
+.feedback-form input, .reservations-form textarea {
+  background: none !important;
+  border: 3px solid white !important;
+  color: #d9d9d9 !important;
+}
