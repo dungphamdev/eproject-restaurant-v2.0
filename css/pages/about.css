@@ -1,0 +1,126 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box; 
+}
+html{
+	scroll-behavior: smooth;
+}
+.a{
+	font-style: oblique;
+ }
+.an{
+	color: #4da6ff;
+}
+.nen{
+	
+  	padding-right: 15px;
+  	padding-left: 15px;
+ } 	
+.ai{
+
+}
+.au{
+	border-style: ridge;
+}
+#a{
+	margin-right: 15px;
+    margin-left: 15px;
+}
+
+.ai {
+	overflow-wrap: break-word;
+	height: 400px;
+	overflow: auto;
+	/* scrollbar-width: none; */
+  	/* -ms-overflow-style: none;  */
+}
+
+.ai::-webkit-scrollbar {
+	display: none;
+  height: 4px;
+  margin-top: 8px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #999999;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #CCCCCC; 
+}
+.w{
+	position: absolute;
+	/* color: #4da6ff;
+ */
+	/* nimation-name: example;
+    animation-duration: 0.2s;
+  	animation-iteration-count: infinite; */
+ } 	
+/* @keyframes example {
+  from {color: red;}
+  to {color: #4da6ff;}
+} */
+
+
+
+
+
+.text-carousel{
+	width: 100%;
+	height: 100%;	
+    top: 35%;	
+    text-align: center;
+    color: white;
+
+
+
+
+
+
+
+    /* nimation-name: example;
+    animation-duration: 0.2s;
+  	animation-iteration-count: infinite; */
+}
+
+/* @keyframes example {
+  from {color: red;}
+  to {color: #4da6ff;}
+} */
+
+
+.text-carousel-link{
+	 top: 80%;	
+}
+.text-carousel-link {
+  animation-name: example;
+  animation-duration: 1.5s;
+  animation-iteration-count: 50000;
+}
+
+@keyframes example {
+  from {
+  	top: 70%;
+  }
+  to {
+  	top: 80%;
+	}
+}
+.s{
+	position: absolute;
+
+}
+.haha{
+	width: 100%;
+	height: 60px;
+}
+.u{
+	color: #ffffff;
+}
