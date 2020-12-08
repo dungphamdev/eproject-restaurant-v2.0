@@ -1,0 +1,27 @@
+.gallery-description{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: white;
+}
+.animated{
+	color: #E2001A;
+}
+#gallery-thumbnails{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.viennho{
+	text-align: center;
+	color: #616161;
+}
+.viennho p{
+	font-size: 12px;
+    line-height: 1.4
+}
+.disclaimer{
+	display: block;
+    font-size: 11px;
+    opacity: .7;
+    font-style: italic;
+    line-height: 1.4;
+}

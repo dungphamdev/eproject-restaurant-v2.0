@@ -1,1 +1,43 @@
+.card-text{
+	font-family: 'Frank Ruhl Libre', serif;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 20px;
+}
 
+.card-title{
+	font-family: 'Frank Ruhl Libre', serif;
+	font-family: 'Balsamiq Sans', cursive;
+	color: #E2001A;
+	font-size: 16px;
+	margin-bottom: 0;
+}
+.card-footer{
+	background-color: rgba(0,0,0,.0); 
+    border-top: 0px solid rgba(0,0,0,.125);
+    padding-top: 0;
+}
+.album-description{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: white;
+}
+.album-description .animated{
+	color: #E2001A;
+}
+.col-2 p{
+	margin-bottom: 0;
+	font-family: 'Frank Ruhl Libre', serif;
+	font-family: 'Balsamiq Sans', cursive;
+	color: #F9B200;
+	font-size: 17px;
+}
+#ke {
+	border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    color: #f9b200;
+    padding: 12px 0 10px 0;
+    margin-bottom: 30px;
+}
+#gallery-thumbnails{
+	padding-top: 0;
+}

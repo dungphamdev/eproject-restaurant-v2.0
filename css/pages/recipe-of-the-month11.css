@@ -9,7 +9,6 @@
     margin-bottom: 30px;
 }
 .recipes-tags .recipes-tag {
- 
     width: 150px;
     max-width: 100%;
 }
@@ -18,8 +17,8 @@
     margin-bottom: 5px;
 }
 .container .row{
-	border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+	border-top: 0px solid #ccc;
+    border-bottom: 0px solid #ccc;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -54,4 +53,38 @@
 .page-footer .container .row{
 	border-top: 0px solid #ccc;
     border-bottom: 0px solid #ccc;
+}
+#ke {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    color: #f9b200;
+    padding: 12px 0 10px 0;
+    margin-bottom: 30px;
+}
+.col-2 p{
+    margin: 0;
+        font-family: 'Frank Ruhl Libre', serif;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.recipes-tags{
+    margin: 0;
+}
+.album-description #title-1{
+    font-size: 16px;
+}
+.album-description{
+    padding-top: 40px;
+    padding-bottom: 11px;
+}
+
+.image-embed-item{
+    max-width: 100%;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ce-table{
+    width: 100%;
+    margin-left: 22px;
 }

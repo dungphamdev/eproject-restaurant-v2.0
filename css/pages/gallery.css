@@ -1,0 +1,12 @@
+.album-description{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: white;
+}
+.album-description .animated{
+	color: #E2001A;
+}
+.album-content{
+	padding-top: 0;
+	padding-bottom: 0;
+}
