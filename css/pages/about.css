@@ -10,7 +10,7 @@ html{
 	font-style: oblique;
  }
 .an{
-	color: #4da6ff;
+	color: black;
 }
 .nen{
 	
@@ -123,4 +123,12 @@ html{
 }
 .u{
 	color: #ffffff;
+}
+.lo{
+  position: relative;
+  animation: animateright 2s;
+}
+.lo1{
+  position: relative;
+  animation: animateleft 2s;
 }
