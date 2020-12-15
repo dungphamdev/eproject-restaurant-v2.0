@@ -1,17 +1,62 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinegar Food Restaurant</title>
+  <link rel="icon" type="image/png" href="media/brand/chef-restaurant-logo-publicdomainvectors.svg" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
   <script>document.getElementsByTagName("html")[0].className += " js";</script>
   <link rel="stylesheet" href="../assets/css/style.css">
-  <title>Responsive Vertical Timeline | CodyHouse</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+  <!-- custom css -->
+  <link rel="stylesheet" href="../css/main.css">
+  <!-- animate css -->
+  <link rel="stylesheet" href="../css/animate.css">
 </head>
+
 <body>
-	<header class="cd-main-header text-center flex flex-column flex-center">
-    <h1>Responsive Vertical Timeline</h1>
-    <p class="margin-top-sm">👈<a class="color-inherit" href="https://codyhouse.co/gem/vertical-timeline/">Article &amp; Download</a></p>
-  </header>
+  <div id="container">
+    <nav>
+      <div id="logo">
+        <a href="../index.html"><img id="logo-image" src="../media/brand/chef-restaurant-logo-publicdomainvectors.svg"
+            width="45" height="45" alt="Logo"></a>
+      </div>
+      <ul>
+        <!-- <li><a href="index.html">Home</a></li> -->
+        <li class="dropdown"><a href="../pages/meals.html">Menu &nbsp;<i class="fa fa-caret-down"></i></a>
+          <div class="dd">
+            <div id="up_arrow"></div>
+            <ul>
+              <li><a href="../pages/meals.html">Regular</a></li>
+              <li><a href="../pages/meals.html">Lunch</a></li>
+              <li><a href="../pages/meals.html">Snacks</a></li>
+              <li><a href="../pages/meals.html">Desert</a></li>
+              <li><a href="../pages/meals.html">Beverages</a></li>
+              <li><a href="../pages/meals.html">Drinks</a></li>
+
+            </ul>
+          </div>
+        </li>
+        <li><a href="../pages/gallery.html">Gallery</a></li>
+        <li><a href="../pages/awards.html">Awards</a></li>
+        <!-- <li><a href="pages/catering.html">Catering</a></li>
+            <li><a href="pages/recipe-of-the-month.html">Recipe of the month</a></li> -->
+        <li><a href="../pages/about.html">About</a></li>
+        <!-- <li><a href="pages/reservations.html">Feedback</a></li> -->
+        <li><a href="../pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 
   <section class="cd-timeline js-cd-timeline">
     <div class="container max-width-lg cd-timeline__container">
@@ -22,11 +67,12 @@
 
         <div class="cd-timeline__content text-component">
           <h2>Title of section 1</h2>
-          <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+          <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio,
+            dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste
+            voluptatibus minus veritatis qui ut.</p>
 
           <div class="flex justify-between items-center">
             <span class="cd-timeline__date">Jan 14</span>
-            <a href="#0" class="btn btn--subtle">Read more</a>
           </div>
         </div> <!-- cd-timeline__content -->
       </div> <!-- cd-timeline__block -->
@@ -38,11 +84,11 @@
 
         <div class="cd-timeline__content text-component">
           <h2>Title of section 2</h2>
-          <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-          
+          <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio,
+            dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+
           <div class="flex justify-between items-center">
             <span class="cd-timeline__date">Jan 18</span>
-            <a href="#0" class="btn btn--subtle">Read more</a>
           </div>
         </div> <!-- cd-timeline__content -->
       </div> <!-- cd-timeline__block -->
@@ -54,11 +100,15 @@
 
         <div class="cd-timeline__content text-component">
           <h2>Title of section 3</h2>
-          <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+          <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi,
+            obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit
+            similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero
+            ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis
+            enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat
+            aliquam sunt similique aut adipisci.</p>
 
           <div class="flex justify-between items-center">
             <span class="cd-timeline__date">Jan 24</span>
-            <a href="#0" class="btn btn--subtle">Read more</a>
           </div>
         </div> <!-- cd-timeline__content -->
       </div> <!-- cd-timeline__block -->
@@ -70,11 +120,12 @@
 
         <div class="cd-timeline__content text-component">
           <h2>Title of section 4</h2>
-          <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+          <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio,
+            dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste
+            voluptatibus minus veritatis qui ut.</p>
 
           <div class="flex justify-between items-center">
             <span class="cd-timeline__date">Feb 14</span>
-            <a href="#0" class="btn btn--subtle">Read more</a>
           </div>
         </div> <!-- cd-timeline__content -->
       </div> <!-- cd-timeline__block -->
@@ -86,11 +137,11 @@
 
         <div class="cd-timeline__content text-component">
           <h2>Title of section 5</h2>
-          <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+          <p class="color-contrast-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio,
+            dolorum provident rerum.</p>
 
           <div class="flex justify-between items-center">
             <span class="cd-timeline__date">Feb 18</span>
-            <a href="#0" class="btn btn--subtle">Read more</a>
           </div>
         </div> <!-- cd-timeline__content -->
       </div> <!-- cd-timeline__block -->
@@ -105,7 +156,7 @@
           <p class="color-contrast-medium">This is the content of the last section</p>
 
           <div class="flex justify-between items-center">
-            <span class="cd-timeline__date">Feb 26</span>
+            <span class="cd-timeline__date">Feb 26 2014</span>
           </div>
         </div> <!-- cd-timeline__content -->
       </div> <!-- cd-timeline__block -->
@@ -113,4 +164,5 @@
   </section> <!-- cd-timeline -->
   <script src="../assets/js/main.js"></script>
 </body>
+
 </html>

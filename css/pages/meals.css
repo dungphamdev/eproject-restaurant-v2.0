@@ -3,7 +3,8 @@
  */
 
 .food-category {
-  padding-top: 8rem;
+  padding: 4rem 6rem 0rem 6rem;
+  
 }
 
 .food-category h2 {
@@ -11,23 +12,29 @@
 }
 
 .menu-item {
-  padding: 2.8rem 0;
+  padding: 0.5rem;
+  
 }
 
 .food-image {
-  margin-bottom: 2.8rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
   text-align: center;
+}
+.food-image img{
+  width: 100%;
 }
 
 .food-title {
   font-size: 1rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+ 
 }
 
 .food-title:before {
   position: absolute;
-  top: 12px;
+  top: 6px;
   left: 20px;
   right: 20px;
   height: 1px;
@@ -49,9 +56,28 @@
 }
 
 .food-ingredients {
-  margin-bottom: 0;
+  padding-top: 10px;
 }
 
 .food-horizontal-rule {
   margin: 0;
+}
+
+.hover:hover{
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  border-radius:  25px 25px 25px 25px;
+  border: 3px solid white;
+  width: 600px;
+  margin-left: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.food-ingredients2 {
+  padding-top: 10px;
+  padding-left: 30px;
 }
